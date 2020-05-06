@@ -30,3 +30,5 @@ allow init hal_lineage_fod_hwservice : hwservice_manager {find};
 allow init vendor_data_file:file lock;
 allow init hal_audio_default:binder call;
 allow init platform_app:binder call;
+allow init adsprpcd_file:file mounton;
+
