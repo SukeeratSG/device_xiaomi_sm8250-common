@@ -392,3 +392,10 @@ on post-fs-data
     restorecon /sys/module/migt/parameters/stask_candidate_num
     chmod 0777 /sys/module/migt/parameters/fas_power_mod
     restorecon /sys/module/migt/parameters/fas_power_mod
+
+# Smart Charging
+on boot 
+chown system system /sys/class/power_supply/battery/charging_enabled
+chmod 0666 /sys/class/power_supply/battery/charging_enabled
+chown system system /sys/class/power_supply/battery/input_suspend
+chmod 0666 /sys/class/power_supply/battery/input_suspend

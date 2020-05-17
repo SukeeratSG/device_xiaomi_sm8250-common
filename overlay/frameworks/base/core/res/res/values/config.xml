@@ -518,8 +518,6 @@
     <!-- The name of the package that will hold the dialer role by default. -->
     <string name="config_defaultDialer">com.google.android.dialer</string>
 
-
-
     <!-- The default journal mode to use use when Write-Ahead Logging is not active.
          Choices are: OFF, DELETE, TRUNCATE, PERSIST and MEMORY.
          PERSIST may improve performance by reducing how often journal blocks are
@@ -550,4 +548,9 @@
 
     <!-- Screen off delay -->
     <integer name="config_screen_off_delay">1</integer>
+
+    <!-- Smart charging -->
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
+    <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">0</string>
 </resources>
