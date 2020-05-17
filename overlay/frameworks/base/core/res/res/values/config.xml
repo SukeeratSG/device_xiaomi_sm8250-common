@@ -288,8 +288,8 @@
      <!-- Smart charging -->
     <bool name="config_smartChargingAvailable">true</bool>
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
-    <string name="config_SmartChargingSupspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
+    <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
     
     
     <string-array name="config_locationProviderPackageNames" translatable="false">
@@ -398,8 +398,6 @@
     <!-- The name of the package that will hold the dialer role by default. -->
     <string name="config_defaultDialer">com.google.android.dialer</string>
 
-
-
     <!-- The default journal mode to use use when Write-Ahead Logging is not active.
          Choices are: OFF, DELETE, TRUNCATE, PERSIST and MEMORY.
          PERSIST may improve performance by reducing how often journal blocks are
@@ -462,5 +460,5 @@
 
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">true</bool>
-
+    
 </resources>
