@@ -295,7 +295,11 @@ PRODUCT_PACKAGES += \
 # PowerStats
 PRODUCT_PACKAGES += \
     android.hardware.power.stats@1.0-service.mock
-    
+ 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo   
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
