@@ -332,6 +332,10 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qti.media.sh \
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 PRODUCT_PACKAGES += \
     init.nfc.rc \
     init.qcom.factory.rc \
