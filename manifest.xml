@@ -839,6 +839,7 @@
             <name>IPictureAdjustment</name>
             <instance>default</instance>
         </interface>
+    </hal>
     <hal format="hidl">
         <name>vendor.dolby.hardware.dms</name>
         <transport>hwbinder</transport>
