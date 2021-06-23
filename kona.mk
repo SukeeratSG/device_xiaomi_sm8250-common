@@ -327,6 +327,11 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qti.media.sh \
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RedundantPackages
+
+
 PRODUCT_PACKAGES += \
     init.qcom.factory.rc \
     init.qcom.rc \
@@ -455,3 +460,4 @@ PRODUCT_BUILD_SUPER_PARTITION := true
 BOARD_BUILD_SUPER_IMAGE_BY_DEFAULT := true
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 BOARD_BUILD_PRODUCT_IMAGE := true
+
