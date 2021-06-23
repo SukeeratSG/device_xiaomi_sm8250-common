@@ -329,7 +329,7 @@ PRODUCT_PACKAGES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    RemovePackages
+    RedundantPackages
 
 PRODUCT_PACKAGES += \
     init.qcom.factory.rc \
