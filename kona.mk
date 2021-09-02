@@ -172,10 +172,13 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
     
-# Lights
+# Light
 PRODUCT_PACKAGES += \
     lights.kona \
-    android.hardware.lights-service.qti
+    android.hardware.light@2.0-impl \
+    android.hardware.light@2.0-service
+   # lights.kona \
+    # android.hardware.lights-service.qti
     
 # LiveDisplay
 PRODUCT_PACKAGES += \
