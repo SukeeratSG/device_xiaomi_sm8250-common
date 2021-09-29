@@ -120,9 +120,6 @@
 # USB
 /vendor/bin/init\.mi\.usb\.sh    u:object_r:vendor_qti_init_shell_exec:s0
 
-# vbswap device for zswap
-/dev/block/vbswap0         u:object_r:swap_block_device:s0
-
 #Vm
 /proc/sys/vm/page-cluster       u:object_r:proc_page_cluster:s0
 

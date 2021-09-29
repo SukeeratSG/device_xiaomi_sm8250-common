@@ -406,11 +406,3 @@ chown system system /sys/class/power_supply/battery/charging_enabled
 chmod 0666 /sys/class/power_supply/battery/charging_enabled
 chown system system /sys/class/power_supply/battery/input_suspend
 chmod 0666 /sys/class/power_supply/battery/input_suspend
-
-on property:sys.boot_completed=1
-    # Set up swap
-    write /sys/devices/virtual/block/vbswap0/disksize 3221225472
-    write /proc/sys/vm/swappiness 190
-    write /proc/sys/vm/page-cluster 0
-    swapon_all /vendor/etc/fstab.qcom
-
