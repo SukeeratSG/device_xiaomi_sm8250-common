@@ -144,3 +144,7 @@ ro.havoc.device.name="Poco F3 / Xiaomi Mi11x / Xiaomi K40"
 ro.havoc.group.url=https://t.me/havocalioth_in
 ro.havoc.maintainer=Sukeerat Singh Goindi
 ro.havoc.maintainer.username=irongfly
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
